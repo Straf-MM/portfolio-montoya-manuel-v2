@@ -3,7 +3,7 @@
   "outputDirectory": "dist/public",
   "rewrites": [
     {
-      "source": "/(?!.*\\.(pdf|png|jpg|jpeg|gif|svg|css|js|json|ico|webp)$)(.*)",
+      "source": "/:path((?!.*\\.(pdf|png|jpg|jpeg|gif|svg|css|js|json|ico|webp)$).)*",
       "destination": "/index.html"
     }
   ]
